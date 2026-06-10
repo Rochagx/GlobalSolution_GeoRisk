@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geo Risk — Monitoramento de desastres naturais por satélite</title>
+  <meta name="description" content="Plataforma de monitoramento de desastres naturais em tempo real usando satélites, centrais de monitoramento e alertas inteligentes para a população." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variaveis.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/pages/inicio.css" />
+  <link rel="stylesheet" href="css/responsividade.css" />
+</head>
+<body>
+
+  <header class="cabecalhoSite">
+    <nav class="navegacao conteiner" aria-label="Navegação principal">
+            <a href="index.html" class="marca">
+        <img src="assets/logo-georisk.png" alt="Geo Risk" class="marcaImagemGeo" />
+        <span class="marcaDivisor" aria-hidden="true"></span>
+        <img src="assets/logo-nextcode.png" alt="NextCode" class="marcaImagemNextcode" />
+      </a>
+      <button class="navegacaoBotao" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="navegacaoLinks">
+        <li><a href="index.html" class="ativo">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="monitoramento.html">Monitoramento</a></li>
+        <li><a href="alertas.html">Alertas</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <div class="conteiner destaqueGrid">
+        <div>
+          <span class="sobrancelha">NextCode</span>
+          <h1>Geo Risk: tecnologia espacial protegendo vidas na Terra.</h1>
+          <p class="destaqueTexto">
+            Geo Risk é uma solução que simula o uso de satélites para
+            monitorar regiões, detectar desastres naturais como enchentes e incêndios
+            e emitir alertas direcionados aos usuários das áreas afetadas.
+          </p>
+          <div class="destaqueAcoes">
+            <a class="botao botaoPrimario" href="monitoramento.html"><i data-icon="radar"></i> Ver funcionalidades</a>
+            <a class="botao botaoSecundario" href="alertas.html">Simular um alerta</a>
+          </div>
+        </div>
+        <div class="destaqueFoto">
+          <img src="assets/hero-satelite.jpg" alt="Satélite observando a Terra à noite com luzes das cidades visíveis" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="secaoTitulo" data-animate>
+          <span class="sobrancelha">O problema</span>
+          <h2>Desastres naturais não esperam.</h2>
+          <p>Enchentes, incêndios florestais, deslizamentos e tempestades atingem milhões de pessoas todos os anos. A informação chega tarde — e quem mora em áreas de risco paga o preço.</p>
+        </div>
+        <div class="problemaSolucao">
+          <article class="cartao problema" data-animate>
+            <div class="cartaoIcone"><i data-icon="alert"></i></div>
+            <h3>Alertas que chegam tarde</h3>
+            <p>Sistemas atuais são fragmentados, lentos e raramente integram dados de satélite, regiões cadastradas e canais de comunicação com a população.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="shield"></i></div>
+            <h3>Geo Risk responde em minutos</h3>
+            <p>Satélites monitoram regiões, a Central de Monitoramento detecta o desastre, classifica o nível de risco e notifica somente os usuários da área afetada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="secaoTitulo" data-animate>
+          <span class="sobrancelha">Como funciona</span>
+          <h2>Da órbita ao alerta, em segundos.</h2>
+          <p>Um fluxo contínuo que transforma observação orbital em proteção concreta para quem vive em áreas de risco.</p>
+        </div>
+        <div class="cartoesGrid">
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="satellite"></i></div>
+            <h3>1 · Monitoramento por satélite</h3>
+            <p>Satélites observam continuamente as regiões cadastradas, coletando dados ambientais capazes de revelar sinais de eventos como enchentes e incêndios.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="radar"></i></div>
+            <h3>2 · Detecção de desastres</h3>
+            <p>Ao identificar uma ocorrência, o sistema registra o tipo do evento e sua intensidade — de 1 a 10 — e associa o desastre à região afetada.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="alert"></i></div>
+            <h3>3 · Classificação do risco</h3>
+            <p>A Central de Monitoramento avalia a gravidade e classifica o alerta em <strong>BAIXO</strong>, <strong>MODERADO</strong> ou <strong>CRÍTICO</strong>, com mensagem e severidade.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="user"></i></div>
+            <h3>4 · Notificação direcionada</h3>
+            <p>Somente os usuários cadastrados na região do evento recebem o alerta — comunicação rápida, relevante e sem ruído.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="planet"></i></div>
+            <h3>5 · Gestão das regiões</h3>
+            <p>Cada região monitorada possui histórico próprio, com registro de todas as ocorrências detectadas ao longo do tempo.</p>
+          </article>
+          <article class="cartao" data-animate>
+            <div class="cartaoIcone"><i data-icon="chart"></i></div>
+            <h3>6 · Relatórios de ocorrências</h3>
+            <p>O sistema produz relatórios com o total de desastres, a região mais afetada e o detalhamento de cada evento registrado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="blocoVisual" data-animate>
+          <div class="blocoVisualTexto">
+            <span class="sobrancelha">Sobre o projeto</span>
+            <h2>Tecnologia espacial para detectar riscos e proteger vidas.</h2>
+            <p>O Geo Risk usa observação orbital contínua para identificar eventos naturais que ameaçam regiões habitadas. A informação sai do espaço, passa pela Central de Monitoramento e chega — direcionada — a quem precisa agir.</p>
+            <ul class="blocoVisualLista">
+              <li>Cobertura orbital sobre regiões cadastradas</li>
+              <li>Alerta direcionado: apenas quem está na área recebe</li>
+              <li>Resposta em minutos, não em horas</li>
+            </ul>
+          </div>
+          <div class="blocoVisualImagem">
+            <img src="assets/sobre-projeto.png" alt="Ilustração do Geo Risk com satélite orbitando a Terra e região monitorada com pino de alerta" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="blocoVisual invertido" data-animate>
+          <div class="blocoVisualTexto">
+            <span class="sobrancelha">Alerta direcionado</span>
+            <h2>Da observação ao aviso na palma da mão.</h2>
+            <p>Quando o satélite identifica uma anomalia — como o nível de um rio subindo acima do limite — a área afetada é destacada e os usuários cadastrados na região recebem uma notificação imediata.</p>
+            <ul class="blocoVisualLista">
+              <li>Captura de dados ambientais em órbita</li>
+              <li>Marcação geográfica da zona de risco</li>
+              <li>Notificação push: <em>"Alerta de risco — possível enchente na sua região."</em></li>
+            </ul>
+          </div>
+          <div class="blocoVisualImagem">
+            <img src="assets/alerta.png" alt="Satélite emitindo feixe sobre uma região marcada como crítica, com notificação push de alerta de risco de enchente" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="blocoVisual" data-animate>
+          <div class="blocoVisualTexto">
+            <span class="sobrancelha">Classificação do risco</span>
+            <h2>Avaliação da gravidade para definir o nível do alerta.</h2>
+            <p>Cada ocorrência detectada é classificada conforme intensidade, gerando três níveis de alerta — para que a resposta seja proporcional ao risco real.</p>
+            <ul class="blocoVisualLista">
+              <li><strong style="color:#ef4444">CRÍTICO</strong> — evacuação imediata</li>
+              <li><strong style="color:#f59e0b">MODERADO</strong> — aviso e preparação</li>
+              <li><strong style="color:#22c55e">BAIXO</strong> — monitoramento contínuo</li>
+            </ul>
+          </div>
+          <div class="blocoVisualImagem">
+            <img src="assets/risco.png" alt="Mapa com classificação de risco em três cores: verde para baixo, laranja para moderado, vermelho para crítico" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="conteiner">
+        <div class="secaoTitulo" data-animate>
+          <span class="sobrancelha">Operação 24/7</span>
+          <h2>Alertas emitidos pela Central.</h2>
+        </div>
+        <div class="painelOrbita" data-animate>
+          <div class="painelCabecalho">
+            <div>
+              <h3>Alertas emitidos por mês — simulação</h3>
+              <span class="painelSubtitulo">Dados consolidados pela Central de Monitoramento</span>
+            </div>
+            <span class="painelSubtitulo">últimos 6 meses</span>
+          </div>
+          <div class="painelBarras" role="img" aria-label="Gráfico de alertas emitidos por mês">
+            <div class="painelBarra" style="height: 45%"><span class="painelValor">412</span></div>
+            <div class="painelBarra" style="height: 62%"><span class="painelValor">578</span></div>
+            <div class="painelBarra" style="height: 80%"><span class="painelValor">741</span></div>
+            <div class="painelBarra" style="height: 55%"><span class="painelValor">503</span></div>
+            <div class="painelBarra" style="height: 95%"><span class="painelValor">894</span></div>
+            <div class="painelBarra" style="height: 70%"><span class="painelValor">652</span></div>
+          </div>
+          <div class="painelLabels">
+            <span>Jan</span><span>Fev</span><span>Mar</span><span>Abr</span><span>Mai</span><span>Jun</span>
+          </div>
+          <div class="painelRodape">
+            <span><strong>3.780</strong> alertas no semestre</span>
+            <span><strong>147</strong> regiões monitoradas</span>
+            <span><strong>12</strong> satélites simulados</span>
+            <span><strong>98,4%</strong> de uptime da central</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="secaoTitulo" data-animate>
+          <span class="sobrancelha">Pronto para começar?</span>
+          <h2>Explore o Geo Risk em funcionamento.</h2>
+          <p>Veja o painel de monitoramento e simule a emissão de um alerta para uma região afetada.</p>
+        </div>
+        <div class="textoCentro">
+          <a class="botao botaoPrimario" href="monitoramento.html"><i data-icon="chart"></i> Abrir dashboard</a>
+          <a class="botao botaoSecundario" href="alertas.html" style="margin-left:.5rem">Simular alerta</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="rodapeSite">
+    <div class="conteiner rodapeGrid">
+            <div class="rodapeMarca">
+        <a href="index.html" class="marca">
+          <img src="assets/logo-georisk.png" alt="Geo Risk" class="marcaImagemGeo" />
+        </a>
+        <img src="assets/logo-nextcode.png" alt="NextCode" class="rodapeNextcode" />
+        <p style="margin-top:.75rem"></p>
+      </div>
+      <div>
+        <h4>Navegar</h4>
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="monitoramento.html">Monitoramento</a></li>
+          <li><a href="alertas.html">Alertas</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Equipe</h4>
+        <ul>
+          <li><a href="integrantes.html">Integrantes</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="conteiner rodapeBase">© <span id="current-year">2026</span> NextCode · Geo Risk.</div>
+  </footer>
+
+  <script src="js/icons.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
